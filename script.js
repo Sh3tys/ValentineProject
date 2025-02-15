@@ -3,6 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const noButton = document.getElementById("no");
   const noHitbox = document.getElementById("no-hitbox");
   const body = document.body;
+  const backgroundMusic = document.getElementById("background-music");
+
+  //Modification du volume de la musique de fond
+  backgroundMusic.volume = 0.3;
 
   let confettiCount = 0;
   let clickCount = 0;
